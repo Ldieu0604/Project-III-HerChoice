@@ -1,0 +1,13 @@
+# Bỏ qua các thư viện nặng
+node_modules/
+
+# Bỏ qua file chứa mật khẩu (QUAN TRỌNG NHẤT)
+.env
+
+# Bỏ qua các file rác hệ thống
+.DS_Store
+Thumbs.db
+
+# Bỏ qua các file log lỗi
+npm-debug.log
+yarn-error.log

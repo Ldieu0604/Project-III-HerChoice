@@ -1,0 +1,81 @@
+.
+├── .expo/ # Chứa các file cấu hình và cache của Expo, quan trọng cho dự án React Native Expo.
+│   └── ...
+├── .git/ # Thư mục Git, chứa lịch sử và cấu hình của hệ thống kiểm soát phiên bản.
+│   └── ...
+├── .gitignore # Danh sách các file và thư mục mà Git sẽ bỏ qua (không theo dõi).
+├── .idea/ # Thư mục cấu hình của WebStorm/IntelliJ IDEA.
+│   └── ...
+├── App.js # File gốc của ứng dụng React Native.
+├── UserContext.js # Context API cho quản lý trạng thái người dùng trong ứng dụng.
+├── admin-dashboard/ # Thư mục chứa mã nguồn cho trang quản trị (dashboard).
+│   ├── node_modules/ # Các gói thư viện Node.js được cài đặt cho admin-dashboard.
+│   │ 
+│   ├── public/ # Chứa các tài nguyên công khai cho admin-dashboard (ví dụ: vite.svg).
+│   │   └── vite.svg
+│   ├── src/ # Mã nguồn chính của admin-dashboard.
+│   │   ├── App.css
+│   │   ├── App.jsx # Component chính của ứng dụng React (admin-dashboard).
+│   │   ├── api/ # Các file định nghĩa API calls cho admin-dashboard.
+│   │   │   └── adminApi.js
+│   │   ├── assets/ # Tài nguyên như hình ảnh cho admin-dashboard.
+│   │   │   └── react.svg
+│   │   ├── components/ # Các UI components dùng chung trong admin-dashboard.
+│   │   │   ├── Header.jsx
+│   │   │   └── SliderBar.jsx
+│   │   ├── context/ # Context API cho admin-dashboard.
+│   │   │   └── AuthContext.jsx
+│   │   ├── index.css
+│   │   ├── main.jsx # Entry point của ứng dụng React (admin-dashboard).
+│   │   └── pages/ # Các trang (views) khác nhau của admin-dashboard.
+│   │       ├── DashboardPage.jsx
+│   │       ├── LoginPage.jsx
+│   │       ├── OrdersPage.jsx
+│   │       └── UsersPage.jsx
+│   ├── package-lock.json # Ghi lại phiên bản chính xác của các dependency.
+│   ├── package.json # Thông tin dự án và các dependency cho admin-dashboard.
+│   └── vite.config.js # Cấu hình cho Vite.
+├── api/ # Thư mục chứa mã nguồn cho API backend (Node.js/Express).
+│   ├── models/ # Định nghĩa các schema và model của cơ sở dữ liệu.
+│   │   ├── order.js
+│   │   └── user.js
+│   ├── node_modules/ # Các gói thư viện Node.js được cài đặt cho backend API.
+│   ├── index.js # File khởi tạo chính của API backend.
+│   ├── package-lock.json # Ghi lại phiên bản chính xác của các dependency cho backend.
+│   └── package.json # Thông tin dự án và các dependency cho backend API.
+├── app.json # Cấu hình chính của ứng dụng Expo (React Native).
+├── assets/ # Các tài nguyên dùng chung cho ứng dụng React Native (hình ảnh, fonts, v.v.).
+│   ├── adaptive-icon.png
+│   ├── favicon.png
+│   ├── icon.png
+│   ├── logo.png
+│   ├── sparkle.json
+│   ├── splash-icon.png
+│   └── thumbs.json
+├── babel.config.js # Cấu hình Babel cho dự án.
+├── components/ # Các UI components dùng chung cho ứng dụng React Native.
+│   └── ProductItem.js
+├── config.js # File cấu hình chung của ứng dụng.
+├── index.js # Entry point của ứng dụng React Native.
+├── metro.config.js # Cấu hình Metro Bundler cho React Native.
+├── navigation/ # Định nghĩa cấu trúc điều hướng của ứng dụng React Native.
+│   └── StackNavigator.js
+├── node_modules/ # Các gói thư viện Node.js được cài đặt cho dự án React Native chính.
+├── package-lock.json # Ghi lại phiên bản chính xác của các dependency cho dự án chính.
+├── package.json # Thông tin dự án và các dependency chính của ứng dụng.
+├── redux/ # Chứa các reducers của Redux.
+│   └── CartReducer.js
+├── screens/ # Các màn hình (views) của ứng dụng React Native.
+│   ├── AddAddressScreen.js
+│   ├── AddressScreen.js
+│   ├── CartScreen.js
+│   ├── ConfirmationScreen.js
+│   ├── HomeScreen.js
+│   ├── LoginScreen.js
+│   ├── OrderScreen.js
+│   ├── ProductInfoScreen.js
+│   ├── ProfileScreen.js
+│   └── RegisterScreen.js
+├── store.js # Cấu hình Redux store.
+├── tsconfig.json # Cấu hình TypeScript cho dự án (nếu sử dụng TypeScript).
+└── yarn.lock # Ghi lại phiên bản chính xác của các dependency khi sử dụng Yarn.
